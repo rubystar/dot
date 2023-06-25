@@ -1,0 +1,142 @@
+{
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"workbench.iconTheme": "vscode-icons",
+	"editor.formatOnSave": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.minimap.enabled": false,
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"terminal.integrated.scrollback": 10000,
+	// "prettier.configPath": ".prettierrc",
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"workbench.editor.enablePreview": false,
+	"vim.startInInsertMode": true,
+	"vim.mouseSelectionGoesIntoVisualMode": false,
+	"vim.useSystemClipboard": true,
+	// "vim.normalModeKeyBindings": [{
+	// 		"before": ["<C-c>"],
+	// 		"after": ["\"", "+", "y"]
+	// 	},
+	// 	{
+	// 		"before": ["<C-v>"],
+	// 		"after": ["\"", "+", "p"]
+	// 	}
+	// ],
+	"vim.insertModeKeyBindings": [
+		{ //exit insert modvim.startInInsertMode	e
+			"before": [
+				"j",
+				"k"
+			],
+			"after": [
+				"<Esc>"
+			],
+			"commands": [
+				"workbench.action.files.save"
+			]
+		}
+	],
+	// "vim.normalModeKeyBindings": [
+	// 	{ //exit insert modvim.startInInsertMode	e
+	// 		"before": [
+	// 			"j",
+	// 			"k"
+	// 		],
+	// 		"after": [
+	// 			"<Esc>"
+	// 		],
+	// 		"commands": [
+	// 			"workbench.action.files.save"
+	// 		]
+	// 	}
+	// ],
+	// "vim.visualModeKeyBindings": [
+	// 	{
+	// 		"before": [
+	// 			"j",
+	// 			"k"
+	// 		],
+	// 		"after": [
+	// 			"<Esc>"
+	// 		],
+	// 		"commands": [
+	// 			"workbench.action.files.save"
+	// 		]
+	// 	}
+	// ],
+	"vim.visualModeKeyBindingsNonRecursive": [
+		{
+			"before": [
+				"p"
+			],
+			"commands": [
+				"editor.action.clipboardPasteAction"
+			]
+		}
+	],
+	"vim.handleKeys": {
+		"<C-f>": false,
+		"<C-a>": false,
+		"<C-p>": false,
+		"<C-c>": false,
+		"<C-d>": false,
+		"<C-v>": false,
+		"<C-x>": false,
+	},
+	// "vim.statusBarColorControl": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"ruby.locate": {
+		"exclude": "{**/@(test|spec|tmp|.*),**/@(test|spec|tmp|.*)/**,**/*_spec.rb}",
+		"include": "**/*.rb"
+	},
+	"[rego]": {
+		"editor.defaultFormatter": "tsandall.opa"
+	},
+	"[terraform]": {
+		"editor.defaultFormatter": "hashicorp.terraform"
+	},
+	"prettier.cssEnable": [
+		"css",
+		"less",
+		"scss",
+		"postcss"
+	],
+	"[go]": {
+		"editor.defaultFormatter": "golang.go"
+	},
+	"explorer.confirmDelete": false,
+	"workbench.colorCustomizations": {
+		"statusBar.background": "#005f5f",
+		"statusBar.noFolderBackground": "#005f5f",
+		"statusBar.debuggingBackground": "#005f5f"
+	},
+	"vscode-spring-boot.rewrite.reconcile-prompt": false,
+	"security.workspace.trust.untrustedFiles": "newWindow",
+	"settingsSync.ignoredSettings": [],
+	"workbench.editorAssociations": {
+		"*.docx": "default"
+	},
+	"[yaml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"extensions.experimental.affinity": {
+		"vscodevim.vim": 2,
+		"asvetliakov.vscode-neovim": 1
+	},
+	"vim.neovimPath": "/usr/bin/nvim",
+	"vim.enableNeovim": true,
+	"window.zoomLevel": 1
+}
